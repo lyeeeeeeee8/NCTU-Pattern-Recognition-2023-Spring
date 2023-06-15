@@ -7,7 +7,6 @@
     
     ```bash
     docker pull nvidia/cuda:11.0.3-devel-ubuntu18.04
-
     docker run -d -it --gpus all -p [Port] -v [Path]:[Container Path] --name [name] [image ID]
     ```
     
